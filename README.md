@@ -1,0 +1,2 @@
+# nScriptAnalyzerRules
+Script Analyzer rules
