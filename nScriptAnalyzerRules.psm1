@@ -49,7 +49,7 @@ function nTestDescriptionAndAuthorField
     {
       $result = [Microsoft.Windows.Powershell.ScriptAnalyzer.Generic.DiagnosticRecord]@{
                                                   'Message'  = 'Specified file is not a module manifest'; 
-                                                  'Extent'   = $HashTableAst.Extent
+                                                  'Extent'   = $ScriptBlockAst.Extent
                                                   'RuleName' = $PSCmdlet.MyInvocation.InvocationName;
                                                   'Severity' = 'Information'
                                                   }
